@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebAppHealthTech
+build_property.RootNamespace = WebAppHealthTech
+build_property.ProjectDir = C:\Users\hoke\source\repos\WebAppHealthTech\WebAppHealthTech\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\hoke\source\repos\WebAppHealthTech\WebAppHealthTech
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/HospMedicoModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcE1lZGljb01vZGVsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/HospMedicoModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcE1lZGljb01vZGVsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/HospMedicoModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcE1lZGljb01vZGVsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/HospMedicoModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcE1lZGljb01vZGVsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/HospMedicoModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcE1lZGljb01vZGVsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/HospMedico/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcE1lZGljb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/HospMedico/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcE1lZGljb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/HospMedico/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcE1lZGljb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/HospMedico/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcE1lZGljb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/HospMedico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcE1lZGljb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/MedicoEspec/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvRXNwZWNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/MedicoEspec/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvRXNwZWNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/MedicoEspec/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvRXNwZWNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/MedicoEspec/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvRXNwZWNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/MedicoEspec/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvRXNwZWNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoke/source/repos/WebAppHealthTech/WebAppHealthTech/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
