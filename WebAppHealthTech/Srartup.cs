@@ -22,8 +22,8 @@ namespace WebAppHealthTech
             {
                 services.AddCors(options =>
                 {
-                    options.AddPolicy("AllowSpecificOrigin",
-                        builder => builder.WithOrigins("http://localhost:3000")
+                    options.AddPolicy("AllowAllOrigins",
+                        builder => builder.SetIsOriginAllowed(_ => true)
                                           .AllowAnyHeader()
                                           .AllowAnyMethod()
                                           .AllowCredentials());
@@ -70,11 +70,11 @@ namespace WebAppHealthTech
                     app.UseHsts();
                 }
 
-                app.UseCors("AllowSpecificOrigin");
-                app.UseHttpsRedirection();
+                //app.UseHttpsRedirection();
                 app.UseStaticFiles();
 
                 app.UseRouting();
+                app.UseCors("AllowAllOrigins");
 
                 app.UseEndpoints(endpoints =>
                 {

@@ -40,7 +40,7 @@ namespace WebAppHealthTech.Controllers
         }
 
         //[HttpGet("{lat}/{lng}")]
-        //public ActionResult<IEnumerable<HospitalModel>> GetLatLong(decimal lat, decimal lng)
+        //public ActionResult<IEnumerable<HospitalModel>> GetLatLong(double lat, double lng)
         //{
         //    List<HospitalModel> listaMed = _hospitalRepository.FindAll();
         //    List<HospitalModel> listaProxima = new List<HospitalModel>();
@@ -49,11 +49,11 @@ namespace WebAppHealthTech.Controllers
         //    coordenadaCliente.Latitude = lat;
         //    coordenadaCliente.Longitude = lng;
 
-        //    foreach(var item in listaMed)
+        //    foreach (var item in listaMed)
         //    {
         //        Coordenada coordenadaHospital = new Coordenada();
-        //        coordenadaHospital.Latitude = item.latitude;
-        //        coordenadaHospital.Longitude = item.longitude;
+        //        coordenadaHospital.Latitude = (double)item.latitude;
+        //        coordenadaHospital.Longitude = (double)item.longitude;
 
         //        var distancia = _hospitalRepository.CalcularDistancia(coordenadaCliente, coordenadaHospital);
         //        if (distancia <= 100)

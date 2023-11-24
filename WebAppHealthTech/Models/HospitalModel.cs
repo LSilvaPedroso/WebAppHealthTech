@@ -37,6 +37,9 @@ namespace WebAppHealthTech.Models
         
         [NotMapped]
         public decimal quilometros { get; set; }
+        
+        [NotMapped]
+        public decimal Fila { get; set; }
         public virtual ICollection<HospMedicoModel>? HospMedico { get; set; }
 
         public HospitalModel()

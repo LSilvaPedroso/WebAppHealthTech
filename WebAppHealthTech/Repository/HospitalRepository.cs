@@ -95,25 +95,26 @@ namespace WebAppHealthTech.Repository
         }
         public decimal CalcularDistancia(Coordenada pontoA, Coordenada pontoB)
         {
-            decimal RaioTerraKm = 6371; // Raio médio da Terra em quilômetros
+            double RaioTerraKm = 6371.0; // Raio médio da Terra em quilômetros
 
-            var dLat = GrausParaRadianos(pontoB.Latitude - pontoA.Latitude);
-            var dLon = GrausParaRadianos(pontoB.Longitude - pontoA.Longitude);
+            var dLat = GrausParaRadianos((double)(pontoB.Latitude - pontoA.Latitude));
+            var dLon = GrausParaRadianos((double)(pontoB.Longitude - pontoA.Longitude));
 
-            var a = (decimal)(Math.Sin((double)(dLat / 2)) * Math.Sin((double)(dLat / 2)) +
-                              Math.Cos((double)GrausParaRadianos(pontoA.Latitude)) * Math.Cos((double)GrausParaRadianos(pontoB.Latitude)) *
-                              Math.Sin((double)(dLon / 2)) * Math.Sin((double)(dLon / 2)));
+            var a = Math.Sin(dLat / 2) * Math.Sin(dLat / 2) +
+                    Math.Cos(GrausParaRadianos(pontoA.Latitude)) * Math.Cos(GrausParaRadianos(pontoB.Latitude)) *
+                    Math.Sin(dLon / 2) * Math.Sin(dLon / 2);
 
-            var c = 2 * (decimal)Math.Atan2(Math.Sqrt((double)a), Math.Sqrt(1 - (double)a));
+            var c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
 
-            var distancia = RaioTerraKm * c;
+            var distancia = Math.Round(RaioTerraKm * c, 2);
+            return (decimal)distancia;
 
-            return distancia;
         }
 
-        private decimal GrausParaRadianos(decimal graus)
+        private double GrausParaRadianos(double graus)
         {
-            return graus * (decimal)(Math.PI / 180);
+            return graus * (Math.PI / 180.0);
         }
+
     }
 }
